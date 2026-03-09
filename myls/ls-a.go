@@ -18,6 +18,7 @@ func main() {
 	flag.Parse() // これがあることでフラグが読み込まれる
 
 	fmt.Println("flag.Args()", flag.Args()) // flag.Args()はフラグ以外の引数を返す
+	fmt.Println("")
 
 	args := flag.Args()
 	if len(args) > 0 {
